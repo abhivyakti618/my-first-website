@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: #dfe6df;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 430px;
+    min-height: 650px;
+    background: #f7f7f3;
+    border-radius: 35px;
+    padding: 70px 35px 35px;
+    text-align: center;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.logo {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-size: 23px;
+    color: #26352b;
+    margin-bottom: 4px;
+}
+
+h2 {
+    font-size: 21px;
+    color: #26352b;
+    margin-bottom: 70px;
+}
+
+.form {
+    width: 100%;
+}
+
+.input-box {
+    height: 55px;
+    background: #d8ded6;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    padding: 0 18px;
+    margin-bottom: 15px;
+}
+
+.input-box span {
+    font-size: 20px;
+    margin-right: 12px;
+}
+
+.input-box input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 17px;
+}
+
+.input-box input::placeholder {
+    color: #657066;
+}
+
+button {
+    width: 100%;
+    height: 58px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 30px;
+    background: #6c9272;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #557a5b;
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 40px 15px 25px;
+    color: #555;
+}
+
+.or div {
+    height: 1px;
+    background: #555;
+    flex: 1;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #27342b;
+}
+
+.signin {
+    margin-top: 75px;
+    font-size: 16px;
+    color: #444;
+}
+
+.signin a {
+    color: #333;
+    text-decoration: underline;
+    margin-left: 5px;
+}
